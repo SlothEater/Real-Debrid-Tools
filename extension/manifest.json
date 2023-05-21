@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Real-Debrid Tools",
+    "version": "1.0",
+    "description": "Trigger actions for magnet links",
+    "permissions": [
+        "contextMenus",
+        "downloads"
+    ],
+    "host_permissions": [
+        "http://localhost/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    }
+}
